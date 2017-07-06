@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Djordje Cvijic -- Developer -- @unitAwesome
+
+# THANKS
+
+    Stevan Branezac
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    Sublime Text 2, GIMP

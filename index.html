@@ -1,0 +1,68 @@
+<!doctype html>
+<html class="no-js" lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>burgija.club</title>
+		<link rel="icon" href="favicon.ico">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+		<meta property="fb:app_id" content="201589690186790" />
+		<meta property="og:title" content="burgija.club" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://burgija.club/" />
+		<meta property="og:image" content="http://s17.postimg.org/qhdirb1rz/opengraph.png" />
+		<meta property="og:description" content="Come join the fun today and find out your Burgija name!" />
+		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+	</head>
+	<body>
+		<script>
+			window.fbAsyncInit = function() {
+				FB.init({
+					appId      : '201589690186790',
+					xfbml      : true,
+					version    : 'v2.5'
+				});
+			};
+
+			(function(d, s, id){
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) {return;}
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/en_US/sdk.js";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+		<!--[if lt IE 8]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		<button id="generateButton">
+			Generate a new name!
+		</button>
+		<button id="facebookButton"></button>
+		<span id="congratulations">Well done! Now how about generating another name?</span>
+		<div id="container">
+			<span id="firstName">
+				STEVAN
+			</span>
+			<span id="lastName">
+				<span class="letter">B</span><span class="letter">R</span><span class="letter">A</span><span class="letter">N</span><span class="letter">E</span><span class="letter">Ž</span><span class="letter">A</span><span class="letter">C</span>
+			</span>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+		<script src="js/vendor/seedrandom.js"></script>
+		<script src="js/main.js"></script>
+		<script>
+			(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+			function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+			e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+			e.src='https://www.google-analytics.com/analytics.js';
+			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+			ga('create','UA-71902591-1','auto');ga('send','pageview');
+		</script>
+	</body>
+</html>

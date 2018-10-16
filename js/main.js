@@ -103,8 +103,8 @@ $(function() {
 	facebookButton.on('click', function() {
 		FB.ui({
 			method: 'feed',
-			link: 'http://burgija.club/',
-			picture: 'http://s17.postimg.org/qhdirb1rz/opengraph.png',
+			link: 'https://djcvijic.github.io/burgija.info/',
+			picture: 'https://djcvijic.github.io/burgija.info/img/opengraph.png',
 			description: 'My Burgija name is STEVAN ' + currentName + '!',
 			caption: 'Come join the fun today and find out your Burgija name!'
 		}, function(response) {

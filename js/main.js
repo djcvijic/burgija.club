@@ -105,8 +105,8 @@ $(function() {
 			method: 'feed',
 			link: 'https://djcvijic.github.io/burgija.info/',
 			picture: 'https://djcvijic.github.io/burgija.info/img/opengraph.png',
-			description: 'My Burgija name is STEVAN ' + currentName + '!',
-			caption: 'Come join the fun today and find out your Burgija name!'
+			description: 'My Burgija name is STEVAN ' + currentName + '! What\'s yours?',
+			caption: 'My Burgija name is STEVAN ' + currentName + '! What\'s yours?'
 		}, function(response) {
 			if (response && response.post_id && response.post_id.length) {
 				facebookButton.prop('disabled', true).fadeOut();
